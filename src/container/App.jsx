@@ -1,17 +1,15 @@
 import React from "react";
-import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Home from "../components/Home/Home";
-import Projects from "../components/Projects/Projects";
-import Contact from "../components/Contact/Contact";
+import { Switch, Route } from "react-router-dom";
+import Home from "../Pages/Home/Home";
+import Projects from "../Pages/Projects/Projects";
+import Contact from "../Pages/Contact/Contact";
 const App = () => {
 	return (
-		<Router>
-			<Switch>
-				<Route exact to='/' component={Home} />
-				<Route to='/projects' component={Projects} />
-				<Route to='/contact' component={Contact} />
-			</Switch>
-		</Router>
+		<Switch>
+			<Route exact path='/' component={Home} />
+			<Route path='/projects' component={Projects} />
+			<Route path='/contact' component={Contact} />
+		</Switch>
 	);
 };
 
