@@ -17,8 +17,9 @@ const App = () => {
         </p>
       </div>
       <div className={style.projects}>
-        <Project img={horror} />
-        <Project img={devtennis} />
+        <Project img={horror} title={"100DaysOfHorror"} />
+        <Project img={devtennis} title={"Dev Tennis"} />
+        <Project img={horror} title={"Group Project"} />
       </div>
     </div>
   );
