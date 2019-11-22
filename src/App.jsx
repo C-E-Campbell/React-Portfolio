@@ -3,6 +3,7 @@ import style from "./App.module.scss";
 import Project from "./Components/Project/Project";
 import horror from "./assets/horror.jpg";
 import devtennis from "./assets/devtennis.jpg";
+import Form from "./Components/Form/Form";
 const App = () => {
   return (
     <div className={style.home}>
@@ -21,6 +22,7 @@ const App = () => {
         <Project img={devtennis} title={"Dev Tennis"} />
         <Project img={horror} title={"Group Project"} />
       </div>
+      <Form />
     </div>
   );
 };

@@ -6,6 +6,7 @@
   );
   color: rgb(70, 70, 70);
   text-align: center;
+  padding: 1rem;
 }
 
 .body {
@@ -27,7 +28,6 @@
   background-image: url("./assets/profile.jpg");
   height: 150px;
   width: 150px;
-  transform: rotate(-90deg);
   border-radius: 50%;
   background-size: cover;
   background-repeat: no-repeat;

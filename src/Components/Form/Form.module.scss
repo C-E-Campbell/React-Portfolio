@@ -1,0 +1,30 @@
+.formContainer {
+  padding: 1rem;
+  background-color: rgba(0, 0, 0, 0.075);
+  width: 60%;
+  margin: 2rem auto;
+  border-radius: 2px;
+  box-shadow: 3px 3px 5px rgba(3, 10, 17, 0.37);
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  margin: 0 auto;
+
+  label {
+    align-self: flex-start;
+  }
+
+  input,
+  textarea {
+    justify-self: flex-start;
+    margin: 0.5rem auto;
+    width: 100%;
+    font-size: 1.1rem;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 2px;
+  }
+}
