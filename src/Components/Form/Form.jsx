@@ -11,7 +11,7 @@ export default class Form extends Component {
       <div className={style.formContainer}>
         <h2>Contact Me</h2>
         <form
-          name="contact"
+          name="contactPortfolio"
           data-netlify="true"
           onSubmit={e => e.preventDefault()}
           className={style.form}

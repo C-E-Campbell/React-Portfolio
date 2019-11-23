@@ -13,11 +13,7 @@ const App = () => {
         <div className={style.profile}></div>
         <h1>Charles Campbell</h1>
         <h3>Front End Web Developer</h3>
-        <p>
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab magni
-          iusto eos temporibus nostrum reprehenderit! Quidem, libero!
-          Doloremque, earum tempore!
-        </p>
+        <p></p>
       </div>
       <h2 className={style.projectH2}>PROJECTS</h2>
       <div className={style.projects}>
