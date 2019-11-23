@@ -3,7 +3,7 @@ import style from "./Project.module.scss";
 export default function Project(props) {
   return (
     <div className={style.projectContainer}>
-      <img src={props.img} alt="project poster" />
+      <img src={props.img} />
       <h2>{props.title}</h2>
       <h4>{props.description}</h4>
       <ul>
