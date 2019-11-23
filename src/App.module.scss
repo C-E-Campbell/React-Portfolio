@@ -7,12 +7,14 @@
 }
 
 .body {
+  background: linear-gradient(180deg, #15655aa8, 20%, #15655a),
+    url("./assets/bg.jpg");
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   height: 60vh;
-  max-width: 1060px;
+  width: 100%;
   margin: 0 auto 3rem;
   h1 {
     line-height: 1rem;
