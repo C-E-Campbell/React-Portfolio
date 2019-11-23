@@ -21,6 +21,7 @@ export default class Form extends Component {
             name="email"
             onChange={e => this.setState({ email: e.target.value })}
             type="email"
+            value={this.state.email}
           />
           <label>Message</label>
           <textarea
@@ -29,6 +30,7 @@ export default class Form extends Component {
             name="message"
             onChange={e => this.setState({ message: e.target.value })}
             type="email"
+            value={this.state.message}
           />
           <button>Send It!</button>
         </form>
