@@ -4,9 +4,11 @@ import Project from "./Components/Project/Project";
 import horror from "./assets/horror.jpg";
 import devtennis from "./assets/devtennis.jpg";
 import Form from "./Components/Form/Form";
+import Header from "./Components/Header/Header";
 const App = () => {
   return (
     <div className={style.home}>
+      <Header />
       <div className={style.body}>
         <div className={style.profile}></div>
         <h1>Charles Campbell</h1>

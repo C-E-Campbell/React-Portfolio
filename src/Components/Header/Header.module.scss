@@ -1,0 +1,17 @@
+.header {
+  background-color: #13282e;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  color: #fff;
+  margin: 0 auto;
+
+  i {
+    color: #fff;
+    &:hover {
+      color: #15655a;
+      cursor: pointer;
+    }
+  }
+}
