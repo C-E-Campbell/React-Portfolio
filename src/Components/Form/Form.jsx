@@ -10,7 +10,7 @@ export default class Form extends Component {
     return (
       <div className={style.formContainer}>
         <h2>Contact Me</h2>
-        <form className={style.form}>
+        <form onSubmit={e => e.preventDefault()} className={style.form}>
           <label>Email</label>
           <input
             name="email"
@@ -19,13 +19,13 @@ export default class Form extends Component {
           />
           <label>Message</label>
           <textarea
-            placeholder="I have an idea for an amazing app!"
             rows="10"
             cols="30"
             name="message"
             onChange={e => this.setState({ message: e.target.value })}
             type="email"
           />
+          <button>Send It!</button>
         </form>
       </div>
     );

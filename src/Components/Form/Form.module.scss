@@ -1,10 +1,31 @@
 .formContainer {
   padding: 1rem;
   background-color: rgba(0, 0, 0, 0.075);
+  max-width: 1060px;
   width: 60%;
-  margin: 2rem auto 0;
+  margin: 6rem auto 0;
   border-radius: 2px;
   box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.164);
+
+  h2 {
+    font-size: 2rem;
+  }
+
+  button {
+    width: 30%;
+    margin: 0 auto;
+    background-color: rgba(0, 0, 0, 0.205);
+    border: none;
+    border-radius: 2px;
+    padding: 0.5rem 1rem;
+    font-size: 1.3rem;
+    transition: all 0.3s ease;
+
+    &:hover {
+      background-color: rgb(9, 70, 65);
+      cursor: pointer;
+    }
+  }
 }
 
 .form {

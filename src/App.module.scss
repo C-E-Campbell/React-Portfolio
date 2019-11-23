@@ -2,6 +2,8 @@
   background-color: #15655a;
   text-align: center;
   padding-bottom: 2rem;
+
+  overflow-x: hidden;
 }
 
 .body {
@@ -9,12 +11,18 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-
+  height: 60vh;
+  max-width: 1060px;
+  margin: 0 auto 3rem;
+  h1 {
+    line-height: 1rem;
+    font-size: 3rem;
+  }
   p {
     margin: 0;
     padding: 1.5rem;
     width: 100%;
-    max-width: 960px;
+    max-width: 860px;
   }
 }
 
@@ -27,13 +35,16 @@
   background-repeat: no-repeat;
   background-position: center;
   margin: 2rem auto;
-  max-width: 500px;
 }
 
 .projects {
   display: flex;
   width: 100%;
-  margin: 0 auto;
+  margin: 2rem auto;
   max-width: 1060px;
   justify-content: space-between;
+}
+
+.projectH2 {
+  font-size: 2rem;
 }
