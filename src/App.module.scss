@@ -9,6 +9,7 @@
 .body {
   background: linear-gradient(180deg, #15655aa8, 20%, #15655a),
     url("./assets/bg.jpg");
+  background-size: cover;
   display: flex;
   flex-direction: column;
   align-items: center;
