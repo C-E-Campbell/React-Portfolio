@@ -10,7 +10,12 @@ export default class Form extends Component {
     return (
       <div className={style.formContainer}>
         <h2>Contact Me</h2>
-        <form onSubmit={e => e.preventDefault()} className={style.form}>
+        <form
+          name="contact"
+          data-netlify="true"
+          onSubmit={e => e.preventDefault()}
+          className={style.form}
+        >
           <label>Email</label>
           <input
             name="email"
