@@ -1,5 +1,6 @@
 import React from "react";
 import style from "./Header.module.scss";
+import resume from "./resume.pdf";
 export default function Header() {
   return (
     <div className={style.header}>
@@ -25,7 +26,7 @@ export default function Header() {
         >
           <i className="fab fa-youtube-square fa-2x"></i>
         </a>
-        <a href="" target="_blank">
+        <a href={resume} target="_blank">
           <h4>RESUME</h4>
         </a>
       </div>
