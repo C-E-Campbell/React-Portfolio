@@ -8,6 +8,7 @@ export default function Project(props) {
       <h4>{props.description}</h4>
       <ul>
         <li>{props.tech1}</li>
+        <li>{props.tech7}</li>
         <li>{props.tech2}</li>
         <li>{props.tech3}</li>
         <li>{props.tech4}</li>

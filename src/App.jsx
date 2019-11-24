@@ -43,6 +43,7 @@ const App = () => {
             "A fullstack E-Commerce website. Features include Stripe checkout, account creation and fully functional cart."
           }
           tech1={"React"}
+          tech7={"React Redux"}
           tech2={"PostgreSQL"}
           tech3={"Node with Express.js"}
           tech4={"Nodemailer for emails"}
