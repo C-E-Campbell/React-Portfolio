@@ -14,7 +14,7 @@ const App = () => {
         <h1>Charles Campbell</h1>
         <h3>Front End Web Developer</h3>
         <p>
-          I find myself most days thinking about app ideas, perusing various
+          I find myself most days thinking of app ideas, perusing various
           documentation or coding my projects. I found my passion for web
           development later than I would have wished and now consider myself a
           'Forever Student' of the craft.
