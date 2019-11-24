@@ -25,7 +25,7 @@ export default function Header() {
         >
           <i className="fab fa-youtube-square fa-2x"></i>
         </a>
-        <a href="resume.pdf" target="_blank">
+        <a href="" target="_blank">
           <h4>RESUME</h4>
         </a>
       </div>

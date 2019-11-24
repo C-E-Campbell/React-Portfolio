@@ -13,7 +13,12 @@ const App = () => {
         <div className={style.profile}></div>
         <h1>Charles Campbell</h1>
         <h3>Front End Web Developer</h3>
-        <p></p>
+        <p>
+          I find myself most days thinking about app ideas, perusing various
+          documentation or coding my projects. I found my passion for web
+          development later than I would have wished and now consider myself a
+          'Forever Student' of the craft.
+        </p>
       </div>
       <h2 className={style.projectH2}>PROJECTS</h2>
       <div className={style.projects}>
