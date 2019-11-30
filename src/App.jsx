@@ -29,9 +29,8 @@ const App = () => {
             "A movie app where users try to complete a 'Watch List' challenge. Features include account dashboard and opinion page "
           }
           tech1={"React"}
-          tech2={"MongoDB"}
+          tech2={"PostgreSQL"}
           tech3={"Node with Express.js"}
-          tech4={"Chart.js"}
           tech5={"OMDB movie API"}
           siteURL={"https://100daysofhorror.com/"}
           githubURL={"https://github.com/C-E-Campbell/100daysofhorror"}
