@@ -26,7 +26,7 @@ const App = () => {
           img={horror}
           title={"100DaysOfHorror"}
           description={
-            "A movie app where users try to complete a 'Watch List' challenge. Features include account dashboard and opinion page "
+            "A movie app where users try to complete a 'Watch List' challenge. Features include full CRUD and authentication with bcrypt "
           }
           tech1={"React"}
           tech2={"PostgreSQL"}
