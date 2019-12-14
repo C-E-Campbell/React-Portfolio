@@ -15,14 +15,27 @@ export default function Project(props) {
         <li>{props.tech5}</li>
         <li>{props.tech6}</li>
       </ul>
-      <a
-        rel="noopener noreferrer"
-        target="_blank"
-        href={props.siteURL}
-        className={style.projectBtn}
-      >
-        Live Site
-      </a>
+      <div></div>
+      {props.site ? (
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href={props.siteURL}
+          className={style.projectBtn}
+        >
+          Live Site
+        </a>
+      ) : (
+        <a
+          rel="noopener noreferrer"
+          target="_blank"
+          href={props.siteURL}
+          className={style.projectBtn}
+        >
+          Hosting Soon
+        </a>
+      )}
+
       <a
         rel="noopener noreferrer"
         target="_blank"

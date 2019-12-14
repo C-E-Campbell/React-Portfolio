@@ -3,7 +3,7 @@ import style from "./App.module.scss";
 import Project from "./Components/Project/Project";
 import horror from "./assets/horror.jpg";
 import devtennis from "./assets/devtennis.jpg";
-import Form from "./Components/Form/Form";
+import group from "./assets/group.png";
 import Header from "./Components/Header/Header";
 const App = () => {
   return (
@@ -23,6 +23,7 @@ const App = () => {
       <h2 className={style.projectH2}>PROJECTS</h2>
       <div className={style.projects}>
         <Project
+          site={true}
           img={horror}
           title={"100DaysOfHorror"}
           description={
@@ -32,10 +33,12 @@ const App = () => {
           tech2={"PostgreSQL"}
           tech3={"Node with Express.js"}
           tech5={"OMDB movie API"}
+          tech6={"Authentication with BCrypt"}
           siteURL={"https://100daysofhorror.com/"}
           githubURL={"https://github.com/C-E-Campbell/100daysofhorror"}
         />
         <Project
+          site={true}
           img={devtennis}
           title={"Dev Tennis"}
           description={
@@ -51,9 +54,25 @@ const App = () => {
           siteURL={"https://devtennis.xyz/"}
           githubURL={"https://github.com/C-E-Campbell/devTennis"}
         />
-        <Project title={"Group Project"} description={"Nothing Yet"} />
+        <Project
+          site={false}
+          img={group}
+          title={"This Is DevMountain"}
+          description={
+            "A Fullstack app designed for students of DevMountain to upload information on their personal projects for all other students to view"
+          }
+          tech1={"React"}
+          tech2={"PostgreSQL"}
+          tech3={"Node with Express.js"}
+          tech4={"Socket.io"}
+          tech5={"Chart.js"}
+          tech6={"Redis"}
+          siteURL={"nothing"}
+          githubURL={
+            "https://github.com/C-E-Campbell/groupProjectWPX15/tree/development"
+          }
+        />
       </div>
-      <Form />
     </div>
   );
 };
