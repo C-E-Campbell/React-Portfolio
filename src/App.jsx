@@ -3,7 +3,7 @@ import style from "./App.module.scss";
 import Project from "./Components/Project/Project";
 import horror from "./assets/horror.jpg";
 import devtennis from "./assets/devtennis.jpg";
-import group from "./assets/group.png";
+import group from "./assets/group.jpg";
 import Header from "./Components/Header/Header";
 const App = () => {
   return (
