@@ -55,7 +55,7 @@ const App = () => {
           githubURL={"https://github.com/C-E-Campbell/devTennis"}
         />
         <Project
-          site={false}
+          site={true}
           img={group}
           title={"This Is DevMountain"}
           description={
@@ -67,10 +67,8 @@ const App = () => {
           tech4={"Socket.io"}
           tech5={"Chart.js"}
           tech6={"Redis"}
-          siteURL={"nothing"}
-          githubURL={
-            "https://github.com/C-E-Campbell/groupProjectWPX15/tree/development"
-          }
+          siteURL={"http://thisisdevmountain.com"}
+          githubURL={"https://github.com/C-E-Campbell/groupProjectWPX15"}
         />
       </div>
     </div>
