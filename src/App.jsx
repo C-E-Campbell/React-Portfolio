@@ -12,7 +12,7 @@ const App = () => {
       <div className={style.body}>
         <div className={style.profile}></div>
         <h1>Charles Campbell</h1>
-        <h3>Front End Web Developer</h3>
+        <h3>Full Stack Web Developer</h3>
         <p>
           I find myself most days thinking of app ideas, perusing various
           documentation or coding my projects. I found my passion for web
@@ -34,6 +34,9 @@ const App = () => {
           tech3={"Node with Express.js"}
           tech5={"OMDB movie API"}
           tech6={"Authentication with BCrypt"}
+          login={"Test Login Info: "}
+          user={"User: test44@test.com"}
+          pass={"Pass: test44"}
           siteURL={"https://100daysofhorror.com/"}
           githubURL={"https://github.com/C-E-Campbell/100daysofhorror"}
         />
@@ -67,6 +70,9 @@ const App = () => {
           tech4={"Socket.io"}
           tech5={"Chart.js"}
           tech6={"Redis"}
+          login={"Test Login Info: "}
+          user={"User: test44@test.com"}
+          pass={"Pass: test44"}
           siteURL={"http://thisisdevmountain.com"}
           githubURL={"https://github.com/C-E-Campbell/groupProjectWPX15"}
         />

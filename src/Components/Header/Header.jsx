@@ -19,13 +19,13 @@ export default function Header() {
         >
           <i className="fab fa-github-square fa-2x"></i>
         </a>
-        <a
+        {/* <a
           href="https://www.youtube.com/channel/UCW2XxT0Ry0IXJ5qH1rRgrZA"
           rel="noopener noreferrer"
           target="_blank"
         >
           <i className="fab fa-youtube-square fa-2x"></i>
-        </a>
+        </a> */}
         <a href={resume} rel="noopener noreferrer" target="_blank">
           <h4>RESUME</h4>
         </a>

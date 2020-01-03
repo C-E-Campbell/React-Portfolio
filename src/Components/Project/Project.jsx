@@ -15,7 +15,12 @@ export default function Project(props) {
         <li>{props.tech5}</li>
         <li>{props.tech6}</li>
       </ul>
-      <div></div>
+      <div className={style.loginContainer}>
+        <div>{props.login}</div>
+        <div>{props.user}</div>
+        <div>{props.pass}</div>
+      </div>
+
       {props.site ? (
         <a
           rel="noopener noreferrer"

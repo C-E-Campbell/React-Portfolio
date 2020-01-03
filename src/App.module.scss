@@ -17,7 +17,7 @@
   height: 60vh;
   width: 100%;
   padding-top: 5rem;
-  margin: 0 auto 150px;
+  margin: 0 auto 100px;
   h1 {
     line-height: 1rem;
     font-size: 3rem;
@@ -54,17 +54,30 @@
 }
 
 @media (max-width: 800px) {
+  .body {
+    margin: 0 auto 150px;
+
+    h1 {
+      font-size: 2rem;
+    }
+    p {
+      font-size: 0.8rem;
+    }
+  }
   .projects {
     flex-direction: column;
     align-items: center;
     width: 100%;
+    margin: 0;
   }
   .profile {
     min-height: 100px;
     min-width: 100px;
     margin: 4rem auto 0;
   }
-
+  .projectH2 {
+    font-size: 1.5rem;
+  }
   .body {
     h1 {
       line-height: 2.5rem;
