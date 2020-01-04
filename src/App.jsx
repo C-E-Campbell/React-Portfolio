@@ -23,6 +23,23 @@ const App = () => {
       <div className={style.projects}>
         <Project
           site={true}
+          img={devtennis}
+          title={"Dev Tennis"}
+          description={
+            "A fullstack E-Commerce website. Features include Stripe checkout, account creation and fully functional cart."
+          }
+          tech1={"React"}
+          tech7={"React Redux"}
+          tech2={"PostgreSQL"}
+          tech3={"Node with Express.js"}
+          tech4={"Nodemailer for emails"}
+          tech5={"SportsRadar API for player stats"}
+          tech6={"Inventory assets hosted on AWS S3"}
+          siteURL={"https://devtennis.xyz/"}
+          githubURL={"https://github.com/C-E-Campbell/devTennis"}
+        />
+        <Project
+          site={true}
           img={horror}
           title={"100DaysOfHorror"}
           description={
@@ -38,23 +55,6 @@ const App = () => {
           pass={"Pass: test44"}
           siteURL={"https://100daysofhorror.com/"}
           githubURL={"https://github.com/C-E-Campbell/100daysofhorror"}
-        />
-        <Project
-          site={true}
-          img={devtennis}
-          title={"Dev Tennis"}
-          description={
-            "A fullstack E-Commerce website. Features include Stripe checkout, account creation and fully functional cart."
-          }
-          tech1={"React"}
-          tech7={"React Redux"}
-          tech2={"PostgreSQL"}
-          tech3={"Node with Express.js"}
-          tech4={"Nodemailer for emails"}
-          tech5={"SportsRadar API for player stats"}
-          tech6={"Inventory assets hosted on AWS S3"}
-          siteURL={"https://devtennis.xyz/"}
-          githubURL={"https://github.com/C-E-Campbell/devTennis"}
         />
         <Project
           site={true}
