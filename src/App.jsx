@@ -15,9 +15,8 @@ const App = () => {
         <h3>Full Stack Web Developer</h3>
         <p>
           I find myself most days thinking of app ideas, perusing various
-          documentation or coding my projects. I found my passion for web
-          development later than I would have wished and now consider myself a
-          'Forever Student' of the craft.
+          documentation or coding my projects. My weapons of choice are the MERN
+          stack, PostgreSQL and a host of cool libraries.
         </p>
       </div>
       <h2 className={style.projectH2}>PROJECTS</h2>
