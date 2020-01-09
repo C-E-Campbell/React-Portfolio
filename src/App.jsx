@@ -107,7 +107,7 @@ const App = () => {
           githubURL={"https://github.com/C-E-Campbell/groupProjectWPX15"}
         />
       </div>
-      <div className={style.section}>
+      <div id="contact" className={style.section}>
         <h2 className={style.projectH2}>Contact</h2>
         <h2>
           <span>Email:</span>

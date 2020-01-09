@@ -29,6 +29,9 @@ export default function Header() {
         <a href={resume} rel="noopener noreferrer" target="_blank">
           <h4>RESUME</h4>
         </a>
+        <a href="#contact">
+          <h4>CONTACT</h4>
+        </a>
       </div>
     </div>
   );
