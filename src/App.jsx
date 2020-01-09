@@ -111,7 +111,10 @@ const App = () => {
         <h2 className={style.projectH2}>Contact</h2>
         <h2>
           <span>Email:</span>
-          <a href="mailto:charles.e.campbell1989@gmail.com">
+          <a
+            className={style.emailh2}
+            href="mailto:charles.e.campbell1989@gmail.com"
+          >
             charles.e.campbell1989@gmail.com
           </a>
         </h2>
