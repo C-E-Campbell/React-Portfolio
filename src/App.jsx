@@ -36,15 +36,24 @@ const App = () => {
       </div>
       <div className={style.section}>
         <h2 className={style.projectH2}>Skills</h2>
+        <div>
+          <span>JavaScript</span>
+          <span>React</span>
+          <span>Node</span>
+          <span>PostgreSQL</span>
+          <span>Redux</span>
+          <span>Sass</span>
+          <span>Figma</span>
+        </div>
         <div className={style.skills}>
           <img src={JS} alt="js" />
           <img src={Reactpng} alt="js" />
           <img src={Node} alt="js" />
           <img src={Express} alt="js" />
-          <img src={Figma} alt="js" />
-          <img src={Sass} alt="js" />
           <img src={Postgresql} alt="js" />
           <img src={Redux} alt="js" />
+          <img src={Sass} alt="js" />
+          <img src={Figma} alt="js" />
         </div>
       </div>
       <div className={style.section}>

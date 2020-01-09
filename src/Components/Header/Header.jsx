@@ -1,6 +1,6 @@
 import React from "react";
 import style from "./Header.module.scss";
-import resume from "./CCResume.pdf";
+import resume from "./resume.pdf";
 export default function Header() {
   return (
     <div className={style.header}>
