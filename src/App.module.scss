@@ -95,7 +95,7 @@ html {
 
 @media (max-width: 800px) {
   .body {
-    margin: 0 auto 150px;
+    margin: 0 auto 0px;
 
     h1 {
       font-size: 2rem;
@@ -103,6 +103,12 @@ html {
     p {
       font-size: 0.8rem;
     }
+  }
+  .section {
+    max-width: 95%;
+  }
+  .skills {
+    height: 100%;
   }
   .projects {
     flex-direction: column;
